@@ -1,0 +1,20 @@
+.banner{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/logincomfamaisabel.appspot.com/o/bannerTiquetes.jpg?alt=media&token=11bac30c-38b8-4f84-852c-fee7b48a34a7');
+    background-position: top center;
+    background-size: cover;
+    padding: 5% 55% 25% 5%;
+    position: relative;
+    z-index:1;
+}
+
+.banner::after{
+    content: '';
+    background-color: black;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 0;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+}
