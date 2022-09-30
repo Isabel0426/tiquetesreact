@@ -52,7 +52,7 @@ export function Home(){
                         <div className='container-fluid my-5'>
                             <div className='row'>
                                 <div className='col-12'>
-                                    <h1>Destinos: </h1>
+                                    <h1>Reserva con nosotros : </h1>
                                 </div>
                             </div>
                             <div className='row row-cols-1 row-cols-md-3 g-2'>
@@ -102,7 +102,7 @@ export function Home(){
                         
 
                         </div>
-
+                            
                         <footer className='bg-light text-center text-lg-start' id='foot'>
  
                             <div class='text-center p-3' >

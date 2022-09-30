@@ -1,3 +1,4 @@
+import { Route } from "react-router-dom"
 
 export function Login() {
     return(
@@ -12,8 +13,8 @@ export function Login() {
                 <form>
 
                     <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope"></i></span>
-                        <input id="email" type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1"/>
+                        <span class="input-group-text" id="basic-addon1"><i class="bi bi-person"></i></span>
+                        <input id="username" type="text" class="form-control" placeholder="Userna,e" aria-label="Username" aria-describedby="basic-addon1"/>
                     </div>
 
                     <div class="input-group mb-3">
@@ -21,7 +22,7 @@ export function Login() {
                         <input id="password" type="Password" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1"/>
                     </div>
 
-                    <button id="boton" type="submit" class="btn btn-primary w-100">Registrar</button>
+                    <button id="boton" type="submit" class="btn btn-primary w-100">Ingresar</button>
               
                 </form>
 

@@ -19,7 +19,10 @@ export function Formulariocompra({datex}){
             "fechaEntrada":entrada,
             "fechaSalida":salida,
             "numeroNinos":ninos,
-            "numeroAdultos":adultos
+            "numeroAdultos":adultos,
+            "origen":origen,
+            "vuelta":vuelta,
+
             
         }
         console.log(datos)
