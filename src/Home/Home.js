@@ -1,5 +1,5 @@
 import './Home.css'
-
+import { Login } from '../Login/Login'
 import { Formulariocompra } from '../Formulariocompra/Formulariocompra.js'
 import { Actividades } from '../Actividades/Actividades.js'
 import { ServicioTiquetes } from '../services/ServicioTiquetes/ServicioTiquetes.js'
@@ -45,7 +45,7 @@ export function Home(){
                 <div className="section mb-5">
                         <Actividades></Actividades>
                 </div>
-
+                    
                 <br/>
                 <div className="mt-5">
 

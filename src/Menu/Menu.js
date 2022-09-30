@@ -12,13 +12,13 @@ export function Menu(){
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link className="nav-link active" aria-current="page" to="/" id="alojamiento">Alojamientos</Link>
+                  <Link className="nav-link active" aria-current="page" to="/" id="alojamiento">Reservar</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/tarifas" id="tarifas">Paquetes</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/Login" id="Ingreso">Ingreso</Link>
+                  <Link className="nav-link" to="/L" id="Ingreso">Ingreso</Link>
                 </li>
               </ul>
             </div>

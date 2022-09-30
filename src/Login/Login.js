@@ -1,4 +1,4 @@
-import { Route } from "react-router-dom"
+import { Route, Link } from "react-router-dom"
 
 export function Login() {
     return(
