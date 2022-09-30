@@ -1,5 +1,7 @@
 import { useState,useEffect } from "react"
 import { ServicioRegistro } from "../services/ServicioRegistro"
+import Swal from 'sweetalert2'
+
 
 export function Actividades ({datex}){
     const[username,setUsername]=useState("")
@@ -34,7 +36,7 @@ export function Actividades ({datex}){
                 <div class="row justify-content-center">
                     <div class="col-5">
 
-                        <form>
+                        <form className="" onSubmit={EnviarDatos}>
                                     <h2> Registrese:</h2>
 
                         <div class="input-group mb-3">
@@ -68,7 +70,7 @@ export function Actividades ({datex}){
                                                                         className="form-control shadow"/>
                             </div>
 
-                            <button id="boton" type="submit" class="btn btn-primary w-100">Registrar</button>
+                            <button id="boton" type="submit" class="btn btn-primary w-100" >Registrar</button>
                     
                         </form>
 
