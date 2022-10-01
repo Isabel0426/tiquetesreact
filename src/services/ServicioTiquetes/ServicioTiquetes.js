@@ -1,6 +1,6 @@
 export async function ServicioTiquetes(){
 
-    const URI="https://servercomfama.herokuapp.com/viajescomfama/habitaciones"
+    const URI="http://localhost:5000/api/tiqueteconsulta"
 
     const PETICION={
         method:'GET'

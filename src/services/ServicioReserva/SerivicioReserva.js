@@ -1,7 +1,7 @@
 export async function ServicioReserva(datos){
 
     console.log(datos)
-    const URI="https://servercomfama.herokuapp.com/viajescomfama/reserva"
+    const URI="http://localhost:5000/api/tiquete"
     const PETICION={
         method:'POST',
         headers:{"Content-Type":"application/json"},

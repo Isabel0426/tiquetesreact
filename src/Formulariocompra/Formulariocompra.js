@@ -15,13 +15,13 @@ export function Formulariocompra({datex}){
     function EnviarDatos(evento){
         evento.preventDefault()
         let datos={
-            "idHabitacion":datex,
             "fechaEntrada":entrada,
             "fechaSalida":salida,
             "numeroNinos":ninos,
             "numeroAdultos":adultos,
             "origen":origen,
             "vuelta":vuelta,
+            
 
             
         }
